@@ -30,7 +30,7 @@ Test Automation Framework for Build Testing
                                 /src/test/java/appHooks/ApplicationHook.java
                                 
     Config                    : Holds input data that needs to be pass to Test Method.
-                                /src/test/resources/environment/prod/environment.properties
+                                /src/test/resources/environment/qa/environment.properties
                                 /src/test/resources/environment/stage/environment.properties
                                 
     Test Runner               : Test Runners in TestNG
@@ -50,14 +50,18 @@ Test Automation Framework for Build Testing
                                /src/main/java/com/org/util/Constants.java
                                src/main/java/com/org/util/PropertiesFileManager.java
 
+    Jira Update              : From environment.properties jira update can be enabled or disabled. You can configure jira org url with username and access key
 
+    SendTestAutomationReport : From environment.properties Sending email report can be enabled or disabled. You can configure individual or group DL mail from src/test/java/utils/SendTestAutomationReport
+
+    Parallel Execution       : From Pom.xml increase for the value dataproviderthreadcount of field the number of thread 
 
 Technologies Used:
 
      1. Selenium WebDriver 4+ with Java Language binding
      2. Cucumber 6.x JVM library
      3. WebDriverManager
-     4. JDK 11
+     4. JDK 1.8
      5. Maven (Build tool)
      6. Maven Plugins
      7. Cucumber extent report 6 adapter

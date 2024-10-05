@@ -34,7 +34,7 @@ public class SendTestAutomationReport {
             String executionEnvironment = System.getProperty("env").toUpperCase();
             message.setFrom(new InternetAddress("testAutomation@test.com"));
             InternetAddress[] toAddresses = {
-                    new InternetAddress("ssssalunkhe@gmail.com")
+                    new InternetAddress("test@gmail.com")
             };
             message.setRecipients(Message.RecipientType.TO, toAddresses);
             message.setSubject(executionEnvironment+" - Test Automation Execution Result of Project Name Test Automation");

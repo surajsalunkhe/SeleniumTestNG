@@ -1,0 +1,7 @@
+[17:05:37] [INFO ] [main] TestContext - Initializing the driver
+[17:06:44] [INFO ] [main] TestContext - Initializing the driver
+[17:06:55] [INFO ] [main] LoginPage - Launching browser and navigating to URL= https://google.com
+[17:06:57] [INFO ] [main] TestContext - Closing the browser
+[17:08:23] [INFO ] [main] TestContext - Initializing the driver
+[17:08:28] [INFO ] [main] LoginPage - Launching browser and navigating to URL= https://google.com
+[17:08:29] [INFO ] [main] TestContext - Closing the browser
