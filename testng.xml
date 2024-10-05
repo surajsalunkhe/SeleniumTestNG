@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" verbose="1">
+    <listeners>
+        <listener class-name="listeners.testNGListener" />
+    </listeners>
+
+    <test name="Test" parallel="tests" thread-count="1">
+        <classes>
+            <class name="testRunner.TestRunner" />
+        </classes>
+    </test>
+    <test name="Rerun failed tests">
+        <classes>
+            <class name="testRunner.FailedTestcaseRunner" />
+        </classes>
+    </test>
+
+</suite>

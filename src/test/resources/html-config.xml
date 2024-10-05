@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Other configurations -->
+
+        <!-- General Settings -->
+        <projectName>Test Automation</projectName>
+        <title>Test Automation</title>
+        <documentTitle>Test Automation</documentTitle>
+        <reportHeadline>Test Automation Report</reportHeadline>
+        <dateFormat>MMM dd, yyyy</dateFormat>
+        <timeFormat>hh:mm:ss a</timeFormat>
+        <encoding>UTF-8</encoding>
+        <protocol>http</protocol>
+
+        <!-- Theme Settings -->
+        <theme>standard</theme>
+        <chartTheme>standard</chartTheme>
+        <protocol>http</protocol>
+
+        <!-- view report without internet -->
+        <offlineMode>false</offlineMode>
+        <thumbnailForBase64>true</thumbnailForBase64>
+
+        <!-- settings to change component location -->
+        <testViewChartLocation>top</testViewChartLocation>
+        <chartVisibleOnOpen>true</chartVisibleOnOpen>
+        <enableTimeline>true</enableTimeline>
+
+        <!-- Report Elements -->
+        <dashboardEnabled>true</dashboardEnabled>
+        <dashboardView>VIEW_LIST</dashboardView>
+        <categoryView>VIEW</categoryView>
+        <testView>FLAT</testView>
+        <exceptionView>EXPAND_FIRST_NODE</exceptionView>
+        <authorView>FLAT</authorView>
+        <logView>FLAT</logView>
+
+        <!-- Other configurations -->
+    </configuration>
+</extentreports>

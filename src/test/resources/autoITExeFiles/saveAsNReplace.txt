@@ -1,0 +1,17 @@
+WinWait("Save As") 
+WinActivate("Save As")
+sleep("500");
+ControlFocus("Save As","","Edit1")
+sleep("1000");
+ControlSetText("Save As","","Edit1",$CmdLine[1])
+ControlSend("Save As", "", "Edit1", "{SPACE}")
+sleep("1000");
+ControlClick("Save As","", "[Text:&Save]")
+sleep("1000");
+
+If WinWait("Confirm Save As") Then
+WinActivate("Confirm Save As")
+sleep("500");
+ControlClick("Confirm Save As","", "[Text:&Yes]")
+EndIf
+

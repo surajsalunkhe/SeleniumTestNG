@@ -1,0 +1,9 @@
+WinWait("Open")
+WinActivate("Open");
+sleep("500");
+ControlFocus("Open","","Edit1")
+sleep("1000");
+ControlSetText("Open","","Edit1",$CmdLine[1])
+ControlSend("Open", "", "Edit1", "{SPACE}")
+sleep("500");
+ControlClick("Open","", "[Text:&Open]")
